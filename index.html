@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mail</title>
+	
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body onload="content()" >
+
+
+                              <!-- profile div -->
+
+<div id="profile">
+
+	<div id="main">
+		
+<h4 id="username">Eric Hoffman</h4>
+principal designer<br>
+
+<button ><div id="mail-icon"></div><div id="compose">Compose</div></button>
+
+	</div>
+
+	<div id="options">
+		
+<ul>
+	<li id="inbox">INBOX</li>
+	<li>SENT</li>
+	<li>DRAFT</li>
+	<li>SPAN</li>
+	<li>TRASH</li>
+	<li>MESSAGE</li>
+	<li>TAGS</li>
+
+
+</ul>
+
+	</div>
+
+	
+<div id="footer"><div class="back"></div><div class="v-line"></div>
+<div class="back"></div></div>	
+
+
+</div>
+
+
+                             <!-- Mailbox and content box -->
+
+
+<div id="primary">
+
+<div id="mailBox" class="grow" >
+	
+	<div id="top">
+
+<div id="all">ALL</div>
+<div>Most Recent</div>
+<div>unread</div>
+
+</div>
+<!-- Mails -->
+
+<div id="mails" onclick="template()">
+<div class="mail" onclick="orange(this)"><div><p>Stepan Bernard</p>	
+Available for Windows, mac</div><div class="time">10.28pm</div>
+<!-- <div class="arrow"></div> -->
+</div>
+<div class="mail" onclick="orange(this)"><div><p>KenilBhavsar</p>	
+My Amazing trip of australia</div><div class="time">10.24pm</div>
+
+</div>
+<div class="mail" onclick="orange(this)"><div><p>Rahman</p>	
+Final Reminder dolor sitmet</div><div class="time">8th Dec</div>
+
+</div><div class="mail" onclick="orange(this)"><div><p>Ken Shamroc</p>	
+Lorem ipsum dolor sit amet</div><div class="time">7th Dec</div>
+
+</div><div class="mail"onclick="orange(this)"><div><p>Refco Finacial </p>	
+Lorem ipsum dolor sit amet</div><div class="time">4th Dec</div>
+
+</div><div class="mail" onclick="orange(this)"><div><p>Axis bank</p>	
+August Monthly Statement</div><div class="time">1th Dec</div>
+
+</div><div class="mail"onclick="orange(this)"><div><p>Bill Stainer</p>	
+Case study:spangler candy</div><div class="time">29th Nov</div>
+
+</div><div class="mail"onclick="orange(this)"><div><p>Stephan Bernard</p>	
+Lorem ipsum dolor sit amet</div><div class="time">26th Nov</div>
+
+</div><div class="mail"onclick="orange(this)"><div><p>thennarasu</p>	
+Lorem ipsum dolor sit amet</div><div class="time">21th Nov</div>
+
+</div><div class="mail" onclick="orange(this)"><div><p>John@gmail,com</p>	
+Lorem ipsum dolor sit amet</div><div class="time">9th Nov</div>
+
+</div><div class="mail" onclick="orange(this)"><div><p>thennarasu</p>	
+Lorem ipsum dolor sit amet</div><div class="time">1th Nov</div>
+
+</div><div class="mail" onclick="orange(this)"><div><p>thennarasu</p>	
+Lorem ipsum dolor sit amet</div><div class="time">1th Nov</div>
+
+</div><div class="mail" onclick="orange(this)"><div><p>thennarasu</p>	
+Lorem ipsum dolor sit amet</div><div class="time">1th Nov</div>
+
+</div>
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+                             <!-- content box -->
+
+<div id="content">
+
+<div id="first">
+	
+<div id="symbols">
+<div class="back"></div>
+<div class="back"></div>
+<div class="back"></div>
+<div class="back"></div>
+</div>
+
+<div id="search">Your keyword...&emsp;<div id="search-icon"></div></div>
+
+
+
+</div>
+
+<div id="second">
+	
+<div id="name">
+	
+<!-- img --><div id="img"></div>
+<div ><p id="kenil">Kenil Bhavsar</p>
+love with UI/GUI/UX</div>
+
+</div>
+
+<div id="title">
+	
+
+	<p>My Amazing trip of australia!</p>
+	To:Me,james.ali@gmail.com
+</div>
+
+<div id="date">
+	
+25th November 2013 <span id="date"></span>10:24pm
+
+</div>
+
+
+
+</div>
+	
+<div id="subject">
+	
+<p>Hi eric<p>
+
+<h2>There are things I love and hate about Aussie food</h2>
+ 
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+<span>Thank you...</span>
+<p id="sign">Kenil Bhavsar</p>
+
+<div id="attachment">
+<p>Attachment</p>
+my-photo.jpg australia-trip.ppt</div>
+
+
+
+
+</div>
+<div id="comment"><input type="comment" name="" placeholder="Comments">
+</div>
+<button id="send">Send</button>
+
+</div>
+
+</div>
+<script type="text/javascript" src="index.json"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
